@@ -672,7 +672,7 @@ void AboutSettingsTab::resizeEvent(QResizeEvent *event)
 {
     QWidget::resizeEvent(event);
     QSize size = QSize(event->size().width() / 3 * 2, event->size().height() / 3 * 2);
-    this->logo->setPixmap(QPixmap(":/splash.png").scaled(size, Qt::KeepAspectRatio));
+    this->logo->setPixmap(QPixmap(":/splash_ford.png").scaled(size, Qt::KeepAspectRatio));
 }
 
 

@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    QPixmap pixmap(QPixmap(":/splash.png").scaledToHeight(size.height() / 2));
+    QPixmap pixmap(QPixmap(":/splash_ford.png").scaledToHeight(size.height() / 2));
     QSplashScreen splash(pixmap);
     splash.setMask(pixmap.mask());
     splash.move(pos.x() + ((size.width() / 2) - (splash.width() / 2)), pos.y() + ((size.height() / 2) - (splash.height() / 2)));
